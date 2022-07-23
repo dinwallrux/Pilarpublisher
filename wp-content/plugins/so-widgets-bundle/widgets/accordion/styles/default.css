@@ -1,0 +1,57 @@
+.sow-accordion .sow-accordion-panel {
+  margin-bottom: 10px;
+}
+.sow-accordion .sow-accordion-panel .sow-accordion-panel-header {
+  position: relative;
+  cursor: pointer;
+  padding: 15px 30px 15px 30px;
+  background-color: default;
+  color: default;
+  text-align: left;
+  font-family: default;
+  font-weight: default;
+  font-size: default;
+  text-transform: default;
+}
+.sow-accordion .sow-accordion-panel .sow-accordion-panel-header:hover {
+  background-color: default;
+  color: default;
+  border-color: default;
+}
+.sow-accordion .sow-accordion-panel .sow-accordion-panel-header:focus {
+  outline: 1px dotted #666;
+  outline: auto 5px -webkit-focus-ring-color;
+}
+.sow-accordion .sow-accordion-panel .sow-accordion-panel-header .sow-accordion-title {
+  display: inline-block;
+  width: calc(100% - 25px);
+}
+.sow-accordion .sow-accordion-panel .sow-accordion-panel-header .sow-accordion-open-close-button {
+  float: right;
+}
+.sow-accordion .sow-accordion-panel:not(.sow-accordion-panel-open) > .sow-accordion-panel-header-container > .sow-accordion-panel-header .sow-accordion-close-button {
+  display: none;
+}
+.sow-accordion .sow-accordion-panel.sow-accordion-panel-open > .sow-accordion-panel-header-container > .sow-accordion-panel-header .sow-accordion-open-button {
+  display: none;
+}
+.sow-accordion .sow-accordion-panel .sow-accordion-panel-content .sow-accordion-panel-border {
+  background-color: default;
+  padding: 15px 30px 15px 30px;
+  color: default;
+  font-family: default;
+  font-size: default;
+  overflow: auto;
+}
+.sow-accordion .sow-accordion-panel .sow-accordion-panel-content .sow-accordion-panel-border:focus {
+  outline: 1px dotted #666;
+  outline: auto 5px -webkit-focus-ring-color;
+}
+@media print {
+  .sow-accordion .sow-accordion-panel .sow-accordion-open-close-button {
+    display: none;
+  }
+  .sow-accordion .sow-accordion-panel .sow-accordion-panel-content {
+    display: block !important;
+  }
+}

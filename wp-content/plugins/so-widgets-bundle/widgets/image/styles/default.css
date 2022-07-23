@@ -1,0 +1,18 @@
+.widget-title {
+  text-align: default;
+}
+.sow-image-container {
+  display: flex;
+  align-items: flex-start;
+}
+.sow-image-container > a {
+  display: inline-block;
+  width: default;
+  max-width: default;
+}
+.sow-image-container .so-widget-image {
+  display: block;
+  max-width: default;
+  width: default;
+  height: default;
+}

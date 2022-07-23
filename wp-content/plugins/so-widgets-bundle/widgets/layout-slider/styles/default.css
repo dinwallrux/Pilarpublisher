@@ -1,0 +1,19 @@
+.sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper {
+  padding: 50px 10px 50px 10px;
+  max-width: 1280px;
+  height: default;
+}
+@media (max-width: 780px) {
+  .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper {
+    height: auto;
+  }
+}
+.sow-slider-base .sow-slider-pagination li a {
+  background: #ffffff;
+}
+.sow-slider-base .sow-slide-nav {
+  font-size: 25px;
+}
+.sow-slider-base .sow-slide-nav a {
+  color: #ffffff;
+}

@@ -1,0 +1,19 @@
+.sow-cta-base .sow-cta-text .sow-cta-title {
+  color: default;
+  font-family: default;
+  font-weight: default;
+  font-size: default;
+}
+.sow-cta-base .sow-cta-text .sow-cta-subtitle {
+  color: default;
+  font-family: default;
+  font-weight: default;
+  font-size: default;
+}
+.sow-cta-base .sow-cta-text {
+  float: left;
+}
+.sow-cta-base .so-widget-sow-button {
+  float: right;
+  margin-left: 1em;
+}

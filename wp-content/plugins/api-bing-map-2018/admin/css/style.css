@@ -1,0 +1,303 @@
+/* admin map */
+#bing-admin-wrapper{
+    max-width: 1200px;
+    max-height: 400px;
+    position: absolute;
+    left: 740px;
+    top: 160px;
+}
+
+/* end of admin map */
+
+/* Map Zoom style */
+#value_map_zoom{
+    position: relative;
+    left: 410px;
+    top: -65px; 
+    font-size: 1.2em; 
+}
+#p_map_zoom{
+    width: 250px;  
+}
+#map_zoom{
+    position: relative;
+    top: -30px;
+    left: 155px;
+}
+#map_zoom[type=range] {
+    height: 27px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+}
+#map_zoom[type=range]:focus {
+    outline: none;
+}
+#map_zoom[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 7px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000;
+    background: #2497E3;
+    border-radius: 0px;
+    border: 0px solid #000000;
+}
+#map_zoom[type=range]::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000;
+    border: 1px solid #2497E3;
+    height: 20px;
+    width: 20px;
+    border-radius: 14px;
+    background: #A1D0FF;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+}
+#map_zoom[type=range]:focus::-webkit-slider-runnable-track {
+    background: #2497E3;
+}
+#map_zoom[type=range]::-moz-range-track {
+    width: 100%;
+    height: 7px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000;
+    background: #2497E3;
+    border-radius: 0px;
+    border: 0px solid #000000;
+}
+#map_zoom[type=range]::-moz-range-thumb {
+    box-shadow: 0px 0px 0px #000000;
+    border: 1px solid #2497E3;
+    height: 20px;
+    width: 20px;
+    border-radius: 14px;
+    background: #A1D0FF;
+    cursor: pointer;
+}
+#map_zoom[type=range]::-ms-track {
+    width: 100%;
+    height: 7px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+#map_zoom[type=range]::-ms-fill-lower {
+    background: #2497E3;
+    border: 0px solid #000000;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px #000000;
+}
+#map_zoom[type=range]::-ms-fill-upper {
+    background: #2497E3;
+    border: 0px solid #000000;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px #000000;
+}
+#map_zoom[type=range]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 0px 0px 0px #000000;
+    border: 1px solid #2497E3;
+    height: 20px;
+    width: 20px;
+    border-radius: 14px;
+    background: #A1D0FF;
+    cursor: pointer;
+}
+#map_zoom[type=range]:focus::-ms-fill-lower {
+    background: #2497E3;
+}
+#map_zoom[type=range]:focus::-ms-fill-upper {
+    background: #2497E3;
+}
+/* end of map zoom style */
+#wrap_form > p > label, 
+#wrap_form > p > select{
+    display: inline-block;
+    width: 150px;
+}
+ 
+#clear_custom_url{
+    visibility: hidden;
+}
+#p_map_pin_img{
+    position: relative;
+    top: 18px;
+}
+#p_map_width{
+    margin-top: -63px !important;
+}
+#p_map_pin{
+    margin-top: -23px;
+}
+#p_map_custom_pin{
+    margin-top: -13px;
+}
+#clear_custom_url{
+    position: relative;
+    top: 11px;
+}
+#clear_custom_url:hover{
+    cursor: pointer;
+}
+#map_key{
+    width: 570px;
+}
+
+#pin_block, #new-pin-container{
+	background-color: #2F4F4F;
+	color: white;
+	padding: 10px;
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    margin-top: 4px;
+    width: 700px;    
+}
+#new-pin-container{    
+    -webkit-transition-property: height;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-property: height;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    z-index: 11111;
+}
+
+#map_pin_address {
+    margin-left: 25px;
+    width: 399px;
+}
+#map_pin_custom_pin_url{
+    width: 599px;
+}
+#map_pin_custom_pin_url, #map_pin_custom_url{
+    width: 400px;
+}
+#bing-open-modal{
+    float: right;
+}
+#btn-delete-pin{
+    float: right;
+    margin-top: 10px;
+   color: red;
+   border: 1px solid red;
+   padding: 6px; 
+   border-radius: 5px;
+   background-color: white;
+   font-weight: 600;
+   width: 96px;
+
+}
+
+#btn-delete-pin:hover{
+    color: white;
+    background-color: red;
+    font-weight: 600;
+}
+#map_point_title{ 
+    margin-left: 68px;
+    left: 300px;
+    width: 300px;
+}
+#map_point_description{
+    margin-left: 480px;
+    margin-top: -29px;
+    width: 222px;
+    height: 60px;    
+}
+#info-new-pin{
+    margin-left: 30px;
+}
+#pin_block #btn-delete-pin{
+    margin-top: 0;
+}
+#bing-input-latitude{
+    margin-left: 46px;
+}
+#bing-label-longitude{
+    margin-left: 5px;
+}
+
+/* ---- custom pin modal styling ------*/
+.bing-main-modal{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5 );
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 111111;
+    
+}
+#bing-selected-icon{   
+    position: absolute;
+    left: 250px;
+}
+#bing-icon-search{
+    margin-left: 10px;
+}
+#custom_pin_url_img{
+    margin-bottom: -10px;
+}
+.bing-second-modal{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    margin: 3% auto;
+    overflow: auto;
+    border: 2px solid grey;
+}
+
+.bing-second-modal #bing-block-icon{        
+    display: inline-block;            
+}
+.bing-second-modal div span {
+    width: 100%;
+    text-align: center;
+}
+#bing-block-icon{
+    margin: 7px;
+}
+#bing-block-icon:hover{
+    margin: 5px;
+    border: 2px solid grey;
+}
+#bing-second-modal-search{
+    position: fixed;
+    background-color: white;
+    width: inherit;
+    border-bottom: 1px solid grey; 
+}
+#bing-second-modal-search p{
+    padding-top: 10px;
+}
+#bing-icon-select{
+    margin-left: 60px;
+}
+
+#bing-icons-block{
+    margin-top: 70px;
+}
+#bing-close-modal{
+    float: right;
+}
+#bing-close-modal{
+    margin-top: -15px;
+    padding-right: 5px;
+}
+#bing-close-modal img:hover{
+    cursor: pointer;
+}
+
+
+/* end of custom pin modal styling */
+
+
+
